@@ -82,7 +82,7 @@ synminbutt.Position = UDim2.new(0, 0, 0, 0)
 synminbutt.Size = UDim2.new(0, 24, 0, 28)
 synminbutt.Visible = false
 synminbutt.ZIndex = 14
-synminbutt.Image = "rbxassetid://10776094945"
+synminbutt.Image = "rbxassetid://9288455303"
 synminbutt.ImageRectSize = Vector2.new(138, 167)
 synminbutt.MouseButton1Click:Connect(function()
     MainFrame.Visible = true
@@ -164,12 +164,12 @@ EditorFrame.BackgroundTransparency = 1.000
 EditorFrame.BorderColor3 = Color3.fromRGB(61, 61, 61)
 EditorFrame.Size = UDim2.new(1, 0, 1, 0)
 EditorFrame.ZIndex = 3
-EditorFrame.BottomImage = "rbxassetid://10776094945"
+EditorFrame.BottomImage = "rbxassetid://9288455303"
 EditorFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
 EditorFrame.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
-EditorFrame.MidImage = "rbxassetid://10776094945"
+EditorFrame.MidImage = "rbxassetid://9288455303"
 EditorFrame.ScrollBarThickness = 5
-EditorFrame.TopImage = "rbxassetid://10776094945"
+EditorFrame.TopImage = "rbxassetid://9288455303"
 EditorFrame.BorderSizePixel = 0
 
 Source.Name = "Source"
@@ -425,7 +425,7 @@ title_2.BackgroundTransparency = 1.000
 title_2.Position = UDim2.new(0.00870821718, 0, 0, 0)
 title_2.Size = UDim2.new(0, 18, 0, 24)
 title_2.ZIndex = 14
-title_2.Image = "rbxassetid://10776094945"
+title_2.Image = "rbxassetid://9288455303"
 title_2.ImageRectSize = Vector2.new(138, 167)
 
 scripthub_2.Name = "scripthub"
@@ -651,7 +651,7 @@ title_4.BackgroundTransparency = 1.000
 title_4.Position = UDim2.new(0.00870821718, 0, 0, 0)
 title_4.Size = UDim2.new(0, 18, 0, 24)
 title_4.ZIndex = 110
-title_4.Image = "rbxassetid://10776094945"
+title_4.Image = "rbxassetid://9288455303"
 title_4.ImageRectSize = Vector2.new(138, 167)
 
 title_5.Name = "title"
@@ -673,7 +673,7 @@ title_6.BackgroundTransparency = 1.000
 title_6.Position = UDim2.new(0.00870821718, 0, 0, 0)
 title_6.Size = UDim2.new(0, 18, 0, 24)
 title_6.ZIndex = 110
-title_6.Image = "rbxassetid://10776094945"
+title_6.Image = "rbxassetid://9288455303"
 title_6.ImageRectSize = Vector2.new(138, 167)
 
 synapsex3.Name = "Krnl Windows update"
