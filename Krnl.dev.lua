@@ -1,4 +1,4 @@
-pcall(function() game.CoreGui["SynapseX"]:Destroy() end)
+pcall(function() game.CoreGui["Krnl"]:Destroy() end)
 
 local SynapseXreal = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
@@ -425,7 +425,7 @@ title_2.BackgroundTransparency = 1.000
 title_2.Position = UDim2.new(0.00870821718, 0, 0, 0)
 title_2.Size = UDim2.new(0, 18, 0, 24)
 title_2.ZIndex = 14
-title_2.Image = "http://www.roblox.com/asset/?id=7641125882"
+title_2.Image = "rbxassetid://10776094945"
 title_2.ImageRectSize = Vector2.new(138, 167)
 
 scripthub_2.Name = "scripthub"
@@ -651,7 +651,7 @@ title_4.BackgroundTransparency = 1.000
 title_4.Position = UDim2.new(0.00870821718, 0, 0, 0)
 title_4.Size = UDim2.new(0, 18, 0, 24)
 title_4.ZIndex = 110
-title_4.Image = "http://www.roblox.com/asset/?id=7641125882"
+title_4.Image = "rbxassetid://10776094945"
 title_4.ImageRectSize = Vector2.new(138, 167)
 
 title_5.Name = "title"
@@ -673,7 +673,7 @@ title_6.BackgroundTransparency = 1.000
 title_6.Position = UDim2.new(0.00870821718, 0, 0, 0)
 title_6.Size = UDim2.new(0, 18, 0, 24)
 title_6.ZIndex = 110
-title_6.Image = "http://www.roblox.com/asset/?id=7641125882"
+title_6.Image = "rbxassetid://10776094945"
 title_6.ImageRectSize = Vector2.new(138, 167)
 
 synapsex3.Name = "Krnl Windows update"
@@ -696,7 +696,7 @@ synapsex3.MouseButton1Click:Connect(function()
     })
     synapsex3.Text = "Coming soon."
     wait(1)
-    synapsex3.Text = "Synapse X v3"
+    synapsex3.Text = "krnl Windows"
 end)
 
 -- Scripts:
