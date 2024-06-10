@@ -1,6 +1,4 @@
--- Synapse X in game executor reworked by Cremi for scriptblox.com
-
-pcall(function() game.CoreGui["Synapse X"]:Destroy() end)
+pcall(function() game.CoreGui["SynapseX"]:Destroy() end)
 
 local SynapseXreal = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
@@ -55,7 +53,7 @@ local injected = false
 
 --Properties:
 
-SynapseXreal.Name = "Synapse X"
+SynapseXreal.Name = "Krnl.dev by Darkness"
 SynapseXreal.Parent = game.CoreGui
 SynapseXreal.ResetOnSpawn = false
 
@@ -76,7 +74,7 @@ bar.BorderSizePixel = 0
 bar.Position = UDim2.new(-0, 0, -0.00296382909, 0)
 bar.Size = UDim2.new(0, 689, 0, 25)
 
-synminbutt.Name = "synminbutt"
+synminbutt.Name = "Krnlbutt"
 synminbutt.Parent = SynapseXreal
 synminbutt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 synminbutt.BackgroundTransparency = 1.000
@@ -84,7 +82,7 @@ synminbutt.Position = UDim2.new(0, 0, 0, 0)
 synminbutt.Size = UDim2.new(0, 24, 0, 28)
 synminbutt.Visible = false
 synminbutt.ZIndex = 14
-synminbutt.Image = "http://www.roblox.com/asset/?id=7641125882"
+synminbutt.Image = "rbxassetid://10776094945"
 synminbutt.ImageRectSize = Vector2.new(138, 167)
 synminbutt.MouseButton1Click:Connect(function()
     MainFrame.Visible = true
@@ -121,8 +119,8 @@ Mini.TextColor3 = Color3.fromRGB(255, 255, 255)
 Mini.TextSize = 14.000
 Mini.MouseButton1Click:Connect(function()
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Synapse X";
-        Text = "Synapse X minimized.";
+        Title = "Krnl Windows";
+        Text = "krnl Exeutor";
         Duration = 2;
     })
     synminbutt.Visible = true
@@ -166,12 +164,12 @@ EditorFrame.BackgroundTransparency = 1.000
 EditorFrame.BorderColor3 = Color3.fromRGB(61, 61, 61)
 EditorFrame.Size = UDim2.new(1, 0, 1, 0)
 EditorFrame.ZIndex = 3
-EditorFrame.BottomImage = "rbxassetid://148970562"
+EditorFrame.BottomImage = "rbxassetid://10776094945"
 EditorFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
 EditorFrame.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
-EditorFrame.MidImage = "rbxassetid://148970562"
+EditorFrame.MidImage = "rbxassetid://10776094945"
 EditorFrame.ScrollBarThickness = 5
-EditorFrame.TopImage = "rbxassetid://148970562"
+EditorFrame.TopImage = "rbxassetid://10776094945"
 EditorFrame.BorderSizePixel = 0
 
 Source.Name = "Source"
@@ -303,7 +301,7 @@ title.BackgroundTransparency = 1.000
 title.Position = UDim2.new(0.330062926, 0, 0.00625000056, 0)
 title.Size = UDim2.new(0, 200, 0, 22)
 title.Font = Enum.Font.SourceSans
-title.Text = "Synapse X - vRBX (Modded by CremiWorld)"
+title.Text = "Krnl Windows"
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.TextSize = 16.000
 
@@ -330,7 +328,7 @@ execute.MouseButton1Click:Connect(function()
         loadstring(Source.Text)()
     end
     if injected == false then
-        title.Text = "Synapse X - (Not injected! Press attach)"
+        title.Text = "Krnl - (Not injected! Press attach)"
     end
 end)
 
@@ -400,22 +398,22 @@ Attach.TextColor3 = Color3.fromRGB(255, 255, 255)
 Attach.TextSize = 14.000
 Attach.MouseButton1Click:Connect(function()
     if injected == true then
-        title.Text = "Synapse X - (Already injected!)"
+        title.Text = "Krnl - (Already injected!)"
         wait(1)
-        title.Text = "Synapse X - vRBX (Modded by CremiWorld)"
+        title.Text = "Krnl"
     end
     if injected == false then
-        title.Text = "Synapse X - (Checking...)"
+        title.Text = "Krnl Windows - (Checking...)"
         wait(0.1)
-        title.Text = "Synapse X - (Injecting...)"
+        title.Text = "(Injecting...)"
         wait(1.5)
-        title.Text = "Synapse X - (Checking Whitelist...)"
+        title.Text = "(Checking Whitelist...)"
         wait(0.8)
-        title.Text = "Synapse X - (Scanning...)"
+        title.Text = "(Scanning...)"
         wait(0.3)
-        title.Text = "Synapse X - (Ready!)"
+        title.Text = "(Ready!)"
         wait(0.5)
-        title.Text = "Synapse X Fake"
+        title.Text = "Krnl"
         injected = true
     end
 end)
@@ -585,7 +583,7 @@ title_3.BackgroundTransparency = 1.000
 title_3.Position = UDim2.new(0.161097407, 0, -0.000307376496, 0)
 title_3.Size = UDim2.new(0, 200, 0, 22)
 title_3.Font = Enum.Font.SourceSans
-title_3.Text = "Synapse X - Script Hub"
+title_3.Text = "Krnl - Script Hub"
 title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 title_3.TextSize = 16.000
 title_3.ZIndex = 110
@@ -663,7 +661,7 @@ title_5.BackgroundTransparency = 1.000
 title_5.Position = UDim2.new(0.161097407, 0, -0.000307376496, 0)
 title_5.Size = UDim2.new(0, 200, 0, 22)
 title_5.Font = Enum.Font.SourceSans
-title_5.Text = "Synapse X - Options Menu"
+title_5.Text = "Krnl - Options Menu"
 title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 title_5.TextSize = 16.000
 title_5.ZIndex = 110
@@ -678,7 +676,7 @@ title_6.ZIndex = 110
 title_6.Image = "http://www.roblox.com/asset/?id=7641125882"
 title_6.ImageRectSize = Vector2.new(138, 167)
 
-synapsex3.Name = "synapsex3"
+synapsex3.Name = "Krnl Windows update"
 synapsex3.Parent = optionspage
 synapsex3.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
 synapsex3.BackgroundTransparency = 0.800
@@ -692,8 +690,8 @@ synapsex3.TextSize = 14.000
 synapsex3.ZIndex = 110
 synapsex3.MouseButton1Click:Connect(function()
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Synapse X";
-        Text = "Synapse X v3 coming soon.";
+        Title = "Krnl";
+        Text = "coming soon.";
         Duration = 1;
     })
     synapsex3.Text = "Coming soon."
