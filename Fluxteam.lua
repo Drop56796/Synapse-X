@@ -1,4 +1,4 @@
-pcall(function() game.CoreGui["Krnl"]:Destroy() end)
+pcall(function() game.CoreGui["Fluxteam"]:Destroy() end)
 
 local SynapseXreal = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
@@ -53,7 +53,7 @@ local injected = false
 
 --Properties:
 
-SynapseXreal.Name = "Krnl.dev by Darkness"
+SynapseXreal.Name = "Fluxteam.net by Darkness"
 SynapseXreal.Parent = game.CoreGui
 SynapseXreal.ResetOnSpawn = false
 
@@ -79,10 +79,10 @@ synminbutt.Parent = SynapseXreal
 synminbutt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 synminbutt.BackgroundTransparency = 1.000
 synminbutt.Position = UDim2.new(0, 0, 0, 0)
-synminbutt.Size = UDim2.new(0, 24, 0, 28)
+synminbutt.Size = UDim2.new(0, 29, 0, 29)
 synminbutt.Visible = false
 synminbutt.ZIndex = 14
-synminbutt.Image = "rbxassetid://9288455303"
+synminbutt.Image = "rbxassetid://15960343185"
 synminbutt.ImageRectSize = Vector2.new(138, 167)
 synminbutt.MouseButton1Click:Connect(function()
     MainFrame.Visible = true
@@ -119,8 +119,8 @@ Mini.TextColor3 = Color3.fromRGB(255, 255, 255)
 Mini.TextSize = 14.000
 Mini.MouseButton1Click:Connect(function()
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Krnl Windows";
-        Text = "krnl Exeutor";
+        Title = "Fluxus Windows";
+        Text = "Fluxteam.net Windows Exeutor";
         Duration = 2;
     })
     synminbutt.Visible = true
@@ -164,12 +164,12 @@ EditorFrame.BackgroundTransparency = 1.000
 EditorFrame.BorderColor3 = Color3.fromRGB(61, 61, 61)
 EditorFrame.Size = UDim2.new(1, 0, 1, 0)
 EditorFrame.ZIndex = 3
-EditorFrame.BottomImage = "rbxassetid://9288455303"
+EditorFrame.BottomImage = "rbxassetid://15960343185"
 EditorFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
 EditorFrame.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
-EditorFrame.MidImage = "rbxassetid://9288455303"
+EditorFrame.MidImage = "rbxassetid://15960343185"
 EditorFrame.ScrollBarThickness = 5
-EditorFrame.TopImage = "rbxassetid://9288455303"
+EditorFrame.TopImage = "rbxassetid://15960343185"
 EditorFrame.BorderSizePixel = 0
 
 Source.Name = "Source"
@@ -301,7 +301,7 @@ title.BackgroundTransparency = 1.000
 title.Position = UDim2.new(0.330062926, 0, 0.00625000056, 0)
 title.Size = UDim2.new(0, 200, 0, 22)
 title.Font = Enum.Font.SourceSans
-title.Text = "Krnl Windows"
+title.Text = "Fluxus Windows"
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.TextSize = 16.000
 
@@ -328,7 +328,7 @@ execute.MouseButton1Click:Connect(function()
         loadstring(Source.Text)()
     end
     if injected == false then
-        title.Text = "Krnl - (Not injected! Press attach)"
+        title.Text = "Fluxus - (Not injected!)"
     end
 end)
 
@@ -398,12 +398,12 @@ Attach.TextColor3 = Color3.fromRGB(255, 255, 255)
 Attach.TextSize = 14.000
 Attach.MouseButton1Click:Connect(function()
     if injected == true then
-        title.Text = "Krnl - (Already injected!)"
+        title.Text = "Fluxus - (Already injected!)"
         wait(1)
-        title.Text = "Krnl"
+        title.Text = "Fluxus"
     end
     if injected == false then
-        title.Text = "Krnl Windows - (Checking...)"
+        title.Text = "Fluxus Windows - (Checking...)"
         wait(0.1)
         title.Text = "(Injecting...)"
         wait(1.5)
@@ -413,7 +413,7 @@ Attach.MouseButton1Click:Connect(function()
         wait(0.3)
         title.Text = "(Ready!)"
         wait(0.5)
-        title.Text = "Krnl"
+        title.Text = "Fluxteam.net"
         injected = true
     end
 end)
@@ -423,9 +423,9 @@ title_2.Parent = MainFrame
 title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 title_2.BackgroundTransparency = 1.000
 title_2.Position = UDim2.new(0.00870821718, 0, 0, 0)
-title_2.Size = UDim2.new(0, 18, 0, 24)
+title_2.Size = UDim2.new(0, 29, 0, 29)
 title_2.ZIndex = 14
-title_2.Image = "rbxassetid://9288455303"
+title_2.Image = "rbxassetid://15960343185"
 title_2.ImageRectSize = Vector2.new(138, 167)
 
 scripthub_2.Name = "scripthub"
@@ -583,7 +583,7 @@ title_3.BackgroundTransparency = 1.000
 title_3.Position = UDim2.new(0.161097407, 0, -0.000307376496, 0)
 title_3.Size = UDim2.new(0, 200, 0, 22)
 title_3.Font = Enum.Font.SourceSans
-title_3.Text = "Krnl - Script Hub"
+title_3.Text = "Fluxus Windows - Script Hub"
 title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 title_3.TextSize = 16.000
 title_3.ZIndex = 110
@@ -649,9 +649,9 @@ title_4.Parent = scripthub_2
 title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 title_4.BackgroundTransparency = 1.000
 title_4.Position = UDim2.new(0.00870821718, 0, 0, 0)
-title_4.Size = UDim2.new(0, 18, 0, 24)
+title_4.Size = UDim2.new(0, 29, 0, 29)
 title_4.ZIndex = 110
-title_4.Image = "rbxassetid://9288455303"
+title_4.Image = "rbxassetid://15960343185"
 title_4.ImageRectSize = Vector2.new(138, 167)
 
 title_5.Name = "title"
@@ -661,7 +661,7 @@ title_5.BackgroundTransparency = 1.000
 title_5.Position = UDim2.new(0.161097407, 0, -0.000307376496, 0)
 title_5.Size = UDim2.new(0, 200, 0, 22)
 title_5.Font = Enum.Font.SourceSans
-title_5.Text = "Krnl - Options Menu"
+title_5.Text = "Fluxus - Options Menu"
 title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 title_5.TextSize = 16.000
 title_5.ZIndex = 110
@@ -671,12 +671,12 @@ title_6.Parent = optionspage
 title_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 title_6.BackgroundTransparency = 1.000
 title_6.Position = UDim2.new(0.00870821718, 0, 0, 0)
-title_6.Size = UDim2.new(0, 18, 0, 24)
+title_6.Size = UDim2.new(0, 29, 0, 29)
 title_6.ZIndex = 110
-title_6.Image = "rbxassetid://9288455303"
+title_6.Image = "rbxassetid://15960343185"
 title_6.ImageRectSize = Vector2.new(138, 167)
 
-synapsex3.Name = "Krnl Windows update"
+synapsex3.Name = "Fluxus Windows update"
 synapsex3.Parent = optionspage
 synapsex3.BackgroundColor3 = Color3.fromRGB(104, 104, 104)
 synapsex3.BackgroundTransparency = 0.800
@@ -684,19 +684,19 @@ synapsex3.BorderSizePixel = 0
 synapsex3.Position = UDim2.new(0.30757343, 0, 0.391106505, 0)
 synapsex3.Size = UDim2.new(0, 123, 0, 30)
 synapsex3.Font = Enum.Font.Arial
-synapsex3.Text = "Synapse X v3"
+synapsex3.Text = "Fluxteam.net"
 synapsex3.TextColor3 = Color3.fromRGB(255, 255, 255)
 synapsex3.TextSize = 14.000
 synapsex3.ZIndex = 110
 synapsex3.MouseButton1Click:Connect(function()
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Krnl";
+        Title = "Fluxteam.net";
         Text = "coming soon.";
         Duration = 1;
     })
     synapsex3.Text = "Coming soon."
     wait(1)
-    synapsex3.Text = "krnl Windows"
+    synapsex3.Text = "Fluxus Windows"
 end)
 
 -- Scripts:
